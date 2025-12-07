@@ -44,7 +44,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/iamnobita09/NOBITA_MUSIC",
+    "https://github.com/harshnu12035/NOBITA_MUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -93,13 +93,13 @@ START_IMG_URL = getenv(
     "START_IMG_URL", "https://files.catbox.moe/fcawaj.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/vvxctk.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/tcz7s6.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/vvxctk.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/vvxctk.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/vvxctk.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/vvxctk.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/vvxctk.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/fcawaj.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/i7uj2i.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/fcawaj.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/fcawaj.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/fcawaj.jpg"
 SOUNCLOUD_IMG_URL = "https://files.catbox.moe/fcawaj.jpg"
 YOUTUBE_IMG_URL = "https://files.catbox.moe/fcawaj.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/fcawaj.jpg"
