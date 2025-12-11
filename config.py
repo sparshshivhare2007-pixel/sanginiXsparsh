@@ -27,10 +27,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002344707828))
+LOGGER_ID = int(getenv("LOGGER_ID", -1003460741460))
 
 # Get this value from @PURVI_HELP_BOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 5536473064))
+OWNER_ID = int(getenv("OWNER_ID", 8321938136))
 
 
 # make your bots privacy from telegra.ph and put your url here 
@@ -44,7 +44,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 API_URL = getenv("API_URL", 'https://pytdbotapi.thequickearn.xyz') #youtube song url
 VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
-API_KEY = getenv("API_KEY", '30DxNexGenBots9b72f9')
+API_KEY = getenv("API_KEY", '30DxNexGenBotsd2550c')
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
@@ -55,8 +55,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/shona_bots")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+cpc-CeRmKTBiMWI1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Sanginixbots")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/internalxfeelings")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -94,21 +94,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/fcawaj.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/jnr858.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/vvxctk.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/jnr858.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/fcawaj.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/ruoixf.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/fcawaj.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/fcawaj.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/fcawaj.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/fcawaj.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/qut5yh.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/fcawaj.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/fcawaj.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/fcawaj.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/jnr858.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/jnr858.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/jnr858.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/jnr858.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/jnr858.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/jnr858.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/jnr858.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/jnr858.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/jnr858.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/jnr858.jpg"
 
 
 def time_to_seconds(time):
